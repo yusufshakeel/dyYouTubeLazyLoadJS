@@ -19,13 +19,19 @@
             padding-top: 20px;
             padding-bottom: 50px;
         }
+
+        pre {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #eee;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
 
             <div class="text-center">
 
@@ -45,7 +51,8 @@
                 <hr>
 
                 <h4>License</h4>
-                <p>It's free and released under <a href="https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/blob/master/LICENSE">MIT
+                <p>It's free and released under <a
+                        href="https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/blob/master/LICENSE">MIT
                     License</a> Copyright (c) 2019 Yusuf Shakeel</p>
 
             </div>
@@ -58,6 +65,33 @@
 
             <h2 class="text-center">Setup</h2>
 
+            <h5>Include CSS</h5>
+
+            <p>Include the <code>css</code> file in the head.</p>
+
+            <pre>&lt;link
+    rel="stylesheet"
+    href="path/to/dist/css/dyYouTubeLazyLoad.min.css" /&gt;</pre>
+
+
+            <h5>Include JavaScript</h5>
+
+            <p>Include the <code>js</code> file before the ending body tag.</p>
+
+            <pre>&lt;script src="path/to/dist/js/dyYouTubeLazyLoad.min.js"&gt;&lt;/script&gt;</pre>
+
+
+            <h5>The container</h5>
+
+            <p>Create <code>div</code> having <code>class</code> to <code>dy-yt-lazyload</code> and
+                <code>data-videoid</code>
+                attribute to the YouTube video id.</p>
+
+            <p>Example:</p>
+
+            <pre>&lt;div class="dy-yt-lazyload-container"
+     data-videoid="FZjXYSmCntU"&gt;&lt;/div&gt;</pre>
+
         </div>
     </div>
 
@@ -69,6 +103,7 @@
 
             <h2 class="text-center">Demo</h2>
 
+            <div class='dy-yt-lazyload-container' data-videoid='FZjXYSmCntU'></div>
 
         </div><!--/ .col -->
     </div><!--/ .row -->
