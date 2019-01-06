@@ -1,0 +1,13 @@
+/*!
+ * dyYouTubeLazyLoadJS
+ *
+ * Author: Yusuf Shakeel
+ * https://github.com/yusufshakeel
+ *
+ * GitHub Link: https://github.com/yusufshakeel/dyYouTubeLazyLoadJS
+ *
+ * MIT license
+ * Copyright (c) 2019 Yusuf Shakeel
+ *
+ * Date: 2017-12-29 Fri
+ */.dy-yt-lazyload-container{padding-top:56.25%;width:100%;overflow:hidden;position:relative;display:block;margin-top:15px;margin-bottom:15px;cursor:pointer;background-color:#aaa}.dy-yt-lazyload-container .dy-yt-lazyload-playbtn{width:90px;height:60px;background-color:#333;box-shadow:0 0 30px rgba(0,0,0,.5);z-index:1;opacity:.9;border-radius:5px}.dy-yt-lazyload-container .dy-yt-lazyload-playbtn:before{content:"";border-style:solid;border-width:15px 0 15px 26px;border-color:transparent transparent transparent #fff}.dy-yt-lazyload-container .dy-yt-lazyload-thumbnail{width:100%;top:-16.84%;left:0;opacity:.9}.dy-yt-lazyload-container .dy-yt-lazyload-playbtn,.dy-yt-lazyload-container .dy-yt-lazyload-thumbnail{cursor:pointer}.dy-yt-lazyload-container .dy-yt-lazyload-playbtn,.dy-yt-lazyload-container .dy-yt-lazyload-playbtn:before,.dy-yt-lazyload-container .dy-yt-lazyload-thumbnail{position:absolute}.dy-yt-lazyload-container .dy-yt-lazyload-playbtn,.dy-yt-lazyload-container .dy-yt-lazyload-playbtn:before{top:50%;left:50%;transform:translate3d(-50%,-50%,0)}.dy-yt-lazyload-container .dy-yt-lazyload-iframe,.dy-yt-lazyload-container iframe{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}@media only screen and (max-width:767px){.dy-yt-lazyload-container .dy-yt-lazyload-thumbnail{top:0}}

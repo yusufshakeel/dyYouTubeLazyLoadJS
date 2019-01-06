@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>dyYouTubeLazyLoadJS - Yusuf Shakeel</title>
+
+    <link rel="stylesheet"
+          href="./dist/css/dyYouTubeLazyLoad.min.css">
+
+    <style>
+        body {
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        pre {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+
+            <div class="text-center">
+
+                <h1>dyYouTubeLazyLoadJS</h1>
+                <p>This small plugin will lazy load YouTube embed videos on your blogs and websites.</p>
+
+                <a href="https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/releases"
+                   class="btn btn-outline-primary">Download</a>
+                <a href="https://github.com/yusufshakeel/dyYouTubeLazyLoadJS"
+                   class="btn btn-outline-primary">GitHub</a>
+
+                <hr>
+
+                <p>Created by: <a href='https://github.com/yusufshakeel'>Yusuf Shakeel</a></p>
+                </p>
+
+                <hr>
+
+                <h4>License</h4>
+                <p>It's free and released under <a
+                        href="https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/blob/master/LICENSE">MIT
+                    License</a> Copyright (c) 2019 Yusuf Shakeel</p>
+
+            </div>
+        </div><!--/ .col -->
+    </div><!--/ .row -->
+
+    <!-- Setup -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+
+            <h2 class="text-center">Setup</h2>
+
+            <h5>Include CSS</h5>
+
+            <p>Include the <code>css</code> file in the head.</p>
+
+            <pre>&lt;link
+    rel="stylesheet"
+    href="path/to/dist/css/dyYouTubeLazyLoad.min.css" /&gt;</pre>
+
+
+            <h5>Include JavaScript</h5>
+
+            <p>Include the <code>js</code> file before the ending body tag.</p>
+
+            <pre>&lt;script src="path/to/dist/js/dyYouTubeLazyLoad.min.js"&gt;&lt;/script&gt;</pre>
+
+
+            <h5>The container</h5>
+
+            <p>Create <code>div</code> having <code>class</code> to <code>dy-yt-lazyload</code> and
+                <code>data-videoid</code>
+                attribute to the YouTube video id.</p>
+
+            <p>Example:</p>
+
+            <pre>&lt;div class="dy-yt-lazyload-container"
+     data-videoid="FZjXYSmCntU"&gt;&lt;/div&gt;</pre>
+
+        </div>
+    </div>
+
+    <!-- DEMO -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+
+            <hr>
+
+            <h2 class="text-center">Demo</h2>
+
+            <div class='dy-yt-lazyload-container' data-videoid='FZjXYSmCntU'></div>
+
+        </div><!--/ .col -->
+    </div><!--/ .row -->
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+
+            <hr>
+
+            <div class="text-center">
+                <h4>Donate</h4>
+                <p>Feeling generous &hearts;
+                    <br>Buy me a cup of tea</p>
+                <p><a href="https://www.paypal.me/yusufshakeel">Donate via PayPal</a></p>
+
+                <br>
+
+                <h4>Become a Patron</h4>
+                <p>Support my projects on <a href="https://www.patreon.com/yusufshakeel">Patreon</a></p>
+            </div>
+        </div><!--/ .col -->
+    </div><!--/ .row -->
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+
+            <hr>
+
+            <div class="text-center">
+                <p>Copyright &copy; Yusuf Shakeel</p>
+                <p>MIT License</p>
+            </div>
+        </div><!--/ .col -->
+    </div><!--/ .row -->
+</div>
+
+<!-- dyScrollUpJS -->
+<script src="https://cdn.jsdelivr.net/npm/dyscrollupjs@2.0.0/dist/js/dyscrollup.min.js"></script>
+<script src="./dist/js/dyYouTubeLazyLoad.min.js"></script>
+<script>
+    window.onload = function () {
+        dyscrollup.init({
+            showafter: 300,
+            scrolldelay: 300,
+            position: 'right',
+            image: 'https://cdn.jsdelivr.net/npm/dyscrollupjs@2.0.0/dist/image/32.png',
+            shape: 'other',
+            width: 30,
+            height: 30
+        });
+    };
+</script>
+</body>
+</html>
