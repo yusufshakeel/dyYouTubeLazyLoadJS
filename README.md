@@ -15,6 +15,38 @@ This small plugin will lazy load YouTube embed videos on your blogs and websites
 * Install with npm: `npm install dyyoutubelazyloadjs`
 * Use from jsDelivr CDN: `https://www.jsdelivr.com/package/npm/dyyoutubelazyloadjs`
 
+
+###Setup
+
+####Include CSS
+
+Include the css file in the head.
+
+```html
+<link
+    rel="stylesheet"
+    href="path/to/dist/css/dyYouTubeLazyLoad.min.css" />
+```
+
+####Include JavaScript
+
+Include the js file before the ending body tag.
+
+```html
+<script src="path/to/dist/js/dyYouTubeLazyLoad.min.js"></script>
+```
+
+####The container
+
+Create div having class to dy-yt-lazyload and data-videoid attribute to the YouTube video id.
+
+Example:
+
+```html
+<div class="dy-yt-lazyload-container"
+     data-videoid="FZjXYSmCntU"></div>
+```
+
 ## License
 It's free and released under [MIT License](https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/blob/master/LICENSE) Copyright (c) 2019 Yusuf Shakeel
 
