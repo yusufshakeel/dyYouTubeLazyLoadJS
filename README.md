@@ -16,9 +16,9 @@ This small plugin will lazy load YouTube embed videos on your blogs and websites
 * Use from jsDelivr CDN: `https://www.jsdelivr.com/package/npm/dyyoutubelazyloadjs`
 
 
-###Setup
+### Setup
 
-####Include CSS
+#### Include CSS
 
 Include the css file in the head.
 
@@ -28,7 +28,7 @@ Include the css file in the head.
     href="path/to/dist/css/dyYouTubeLazyLoad.min.css" />
 ```
 
-####Include JavaScript
+#### Include JavaScript
 
 Include the js file before the ending body tag.
 
@@ -36,7 +36,7 @@ Include the js file before the ending body tag.
 <script src="path/to/dist/js/dyYouTubeLazyLoad.min.js"></script>
 ```
 
-####The container
+#### The container
 
 Create div having class to dy-yt-lazyload and data-videoid attribute to the YouTube video id.
 
