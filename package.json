@@ -1,0 +1,34 @@
+{
+  "name": "dyyoutubelazyloadjs",
+  "version": "0.1.0",
+  "description": "This small plugin will lazy load YouTube embed videos on your blogs and websites.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufshakeel/dyYouTubeLazyLoadJS.git"
+  },
+  "keywords": [
+    "youtube",
+    "lazy load",
+    "video",
+    "youtube embed",
+    "youtube video",
+    "youtube iframe"
+  ],
+  "author": "Yusuf Shakeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/issues"
+  },
+  "homepage": "https://github.com/yusufshakeel/dyYouTubeLazyLoadJS#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0"
+  }
+}
