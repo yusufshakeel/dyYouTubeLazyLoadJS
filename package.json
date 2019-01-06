@@ -1,6 +1,6 @@
 {
   "name": "dyyoutubelazyloadjs",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "This small plugin will lazy load YouTube embed videos on your blogs and websites.",
   "main": "index.html",
   "scripts": {
