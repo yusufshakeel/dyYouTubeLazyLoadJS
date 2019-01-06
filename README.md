@@ -5,7 +5,7 @@ This small plugin will lazy load YouTube embed videos on your blogs and websites
 ### Status
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yusufshakeel/dyYouTubeLazyLoadJS)
-[![npm version](https://img.shields.io/badge/npm-0.1.0-blue.svg)](https://www.npmjs.com/package/dyyoutubelazyloadjs)
+[![npm version](https://img.shields.io/badge/npm-0.2.1-blue.svg)](https://www.npmjs.com/package/dyyoutubelazyloadjs)
 [![](https://data.jsdelivr.com/v1/package/npm/dyyoutubelazyloadjs/badge)](https://www.jsdelivr.com/package/npm/dyyoutubelazyloadjs)
 
 
